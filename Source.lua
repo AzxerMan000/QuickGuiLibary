@@ -2,7 +2,7 @@
 local QuickGuiLib = {}
 QuickGuiLib.__index = QuickGuiLib
 
-function QuickGuiLib.new()
+function QuickGuiLib.new(guiName)
     local self = setmetatable({}, QuickGuiLib)
 
     -- Create ScreenGui
