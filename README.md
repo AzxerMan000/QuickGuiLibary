@@ -15,8 +15,9 @@ A minimal Roblox GUI library for easily creating tabs and buttons with simple AP
 
 ## Installation
 
-1. Save `QuickGuiLib.lua` as a ModuleScript in your Roblox project.
-2. Require it from your LocalScript.
+1. paste the local QuickGuiLib into your executor
 
 ```lua
 local QuickGuiLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/QuickGuiLibary/refs/heads/main/Source.lua"))()
+```
+
