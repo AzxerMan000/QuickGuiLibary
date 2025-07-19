@@ -19,4 +19,4 @@ A minimal Roblox GUI library for easily creating tabs and buttons with simple AP
 2. Require it from your LocalScript.
 
 ```lua
-local QuickGuiLib = 
+local QuickGuiLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AzxerMan000/QuickGuiLibary/refs/heads/main/Source.lua"))()
