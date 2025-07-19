@@ -9,6 +9,17 @@ function QuickGuiLib.new(guiName)
     self.ScreenGui = Instance.new("ScreenGui")
     self.ScreenGui.Name = "QuickGuiLib"
     self.ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+    
+    self.MainFrame = Instance.new("Frame")
+    self.MainFrame.Name = "MainWindow"
+    self.MainFrame.Size = UDim2.new(0, 400, 0, 300)
+    self.MainFrame.Position = UDim2.new(0.5, -200, 0.5, -150)
+    self.MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    self.MainFrame.Active = true
+    self.MainFrame.Draggable = true
+    self.MainFrame.Parent = self.ScreenGui
+    Instance.new("UICorner", self.MainFrame).CornerRadius = UDim.new(0, 12)
+    
 
     -- Tabs container (left side)
     self.TabsFrame = Instance.new("Frame")
